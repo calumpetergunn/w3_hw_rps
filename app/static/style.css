@@ -1,0 +1,11 @@
+body {
+    background-image: linear-gradient(red, yellow, green);
+    font-family: 'DotGothic16', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    background-image: linear-gradient(red, yellow, green);
+    border-radius: 15px;
+}
+
