@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div>
+        <h2>Play against the computer? Sure, why not?</h2>
+        <h3>You don't want to lose to a computer do you?
+        </h3>
+        <form action="/play" method="POST">
+            <label for="player_name">Player Name</label>
+            <input type="text" id="player-name">
+            <label for="player_selection">Pick your weapon</label>
+            <select name="player_selection" id="player_selection">
+                <option value="rock">Rock</option>
+                <option value="paper">Paper</option>
+                <option value="scissors">Scissors</option>
+            </select>
+            <input type="submit" value="Good luck!" class="submit">
+        </form>
+    </div>
+    <p>
+      {{cpu_result}}
+    </p>
+
+    <footer>
+        <a href="/game">:GameTime!:</a>
+        <a href="/welcome">:Go Home:</a>
+    </footer>
+
+
+
+{% endblock %}

@@ -2,10 +2,45 @@ body {
     background-image: linear-gradient(red, yellow, green);
     font-family: 'DotGothic16', sans-serif;
     text-align: center;
+    height: 50px;
 }
 
 h1 {
     background-image: linear-gradient(red, yellow, green);
     border-radius: 15px;
 }
+
+footer {
+    background-image: linear-gradient(red, yellow, green);
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    
+    
+    
+}
+
+footer > a {
+    text-decoration: none;
+    color: black;    
+}
+
+.submit {
+    font-family: 'DotGothic16', sans-serif;
+    background-image: linear-gradient(red, yellow, green);
+    font-size: 24px;
+}
+
+form {
+    margin: 150px;
+    font-size: 32px;
+}
+
+#player_name, #player_selection{
+    height: 35px;
+    margin-top: 15px;
+    border-radius: 15px;
+    font-family: 'DotGothic16', sans-serif;
+}
+
 

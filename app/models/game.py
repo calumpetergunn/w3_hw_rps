@@ -1,3 +1,5 @@
+import random
+
 def find_winner(player1, player2):
     if player1.player_choice == player2.player_choice:
         return "It's a draw!"
@@ -17,6 +19,9 @@ def find_winner(player1, player2):
         else:
             return player2.player_name + " wins with " + player2.player_choice
 
-    
+def computer_result():
+    choices = ["rock", "paper", "scissors"]
+    return random.choice(choices)
+
 
    
